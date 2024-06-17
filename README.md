@@ -38,3 +38,32 @@ The project is organized into the following directories:
 - **include/Event.h**: Header file defining the Event class.
 - **include/EmptyDataCollectionException.h**: Header file defining the EmptyDataCollectionException class.
 
+## Compilation Instructions (Without Makefile)
+
+To compile and run the Bank Simulation App manually without using a Makefile, follow these steps:
+
+1. **Open a terminal** and navigate to the directory where your source files are located.
+
+2. **Compile the source files into object files** using the `g++` compiler. Ensure you include the `-std=c++11` flag for C++11 support and `-Wall` for displaying all warnings. Run the following commands:
+
+    ```sh
+    g++ -c -std=c++11 -Wall BankSimApp.cpp
+    g++ -c -std=c++11 -Wall Queue.cpp
+    g++ -c -std=c++11 -Wall Event.cpp
+    g++ -c -std=c++11 -Wall EmptyDataCollectionException.cpp
+    g++ -c -std=c++11 -Wall PriorityQueue.cpp
+    g++ -c -std=c++11 -Wall BinaryHeap.cpp
+    ```
+
+3. **Link the object files** to create the executable. Run the following command:
+
+    ```sh
+    g++ -o BankSimApp BankSimApp.o Queue.o Event.o EmptyDataCollectionException.o PriorityQueue.o BinaryHeap.o
+    ```
+
+4. **Run the executable** with an input file. Use the following command, where `input.txt` is the file containing your input data:
+
+    ```sh
+    ./BankSimApp < input.txt
+    ```
+
