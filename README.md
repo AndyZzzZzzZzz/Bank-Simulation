@@ -16,16 +16,27 @@ The Bank Simulation App processes a series of arrival and departure events to si
 
 ## Project Structure
 
-- **BankSimApp.cpp**: The main application file that runs the simulation.
-- **BinaryHeap.cpp**: Implementation of a binary heap used as the underlying data structure for the priority queue.
-- **PriorityQueue.cpp**: Implementation of the priority queue ADT class.
-- **Queue.cpp**: Implementation of a link-based queue used to manage the bank line.
-- **Event.cpp**: Implementation of the Event class.
-- **Event.h**: Header file defining the Event class.
-- **EmptyDataCollectionException.h**: Header file defining the custom exception class for empty data collections.
-- **PriorityQueue.h**: Header file defining the priority queue class.
-- **Queue.h**: Header file defining the queue class.
-- **BinaryHeap.h**: Header file defining the binary heap class.
+The project is organized into the following directories:
+
+- **src**: Contains the source code files.
+- **include**: Contains the header files.
+- **bin**: Contains the compiled binaries and executables.
+- **obj**: Contains the object files.
+
+### Files
+
+- **src/BankSimApp.cpp**: The main application file that runs the simulation.
+- **src/BinaryHeap.cpp**: Implementation of a binary heap used as the underlying data structure for the priority queue.
+- **src/PriorityQueue.cpp**: Implementation of the priority queue ADT class.
+- **src/Queue.cpp**: Implementation of a link-based queue used to manage the bank line.
+- **src/Event.cpp**: Models arrival and departure events.
+- **src/EmptyDataCollectionException.cpp**: Defines the exception that is thrown when data collection is empty.
+
+- **include/BinaryHeap.h**: Header file defining the BinaryHeap class.
+- **include/PriorityQueue.h**: Header file defining the PriorityQueue class.
+- **include/Queue.h**: Header file defining the Queue class.
+- **include/Event.h**: Header file defining the Event class.
+- **include/EmptyDataCollectionException.h**: Header file defining the EmptyDataCollectionException class.
 
 ## Getting Started
 
@@ -38,4 +49,7 @@ To compile and run this project, you need a C++ compiler that supports C++11 or 
 Use the following command to compile the project:
 
 ```bash
-g++ -o BankSimApp BankSimApp.cpp BinaryHeap.cpp PriorityQueue.cpp Queue.cpp
+make
+./bin/BankSimApp < input.txt
+
+
