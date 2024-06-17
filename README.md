@@ -38,18 +38,3 @@ The project is organized into the following directories:
 - **include/Event.h**: Header file defining the Event class.
 - **include/EmptyDataCollectionException.h**: Header file defining the EmptyDataCollectionException class.
 
-## Getting Started
-
-### Prerequisites
-
-To compile and run this project, you need a C++ compiler that supports C++11 or later.
-
-### Compiling
-
-Use the following command to compile the project:
-
-```bash
-make
-./bin/BankSimApp < input.txt
-
-
