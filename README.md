@@ -20,6 +20,7 @@ The Bank Simulation App processes a series of arrival and departure events to si
 - **BinaryHeap.cpp**: Implementation of a binary heap used as the underlying data structure for the priority queue.
 - **PriorityQueue.cpp**: Implementation of the priority queue ADT class.
 - **Queue.cpp**: Implementation of a link-based queue used to manage the bank line.
+- **Event.cpp**: Implementation of the Event class.
 - **Event.h**: Header file defining the Event class.
 - **EmptyDataCollectionException.h**: Header file defining the custom exception class for empty data collections.
 - **PriorityQueue.h**: Header file defining the priority queue class.
