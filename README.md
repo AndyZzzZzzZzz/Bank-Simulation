@@ -17,15 +17,15 @@ The Bank Simulation App processes a series of arrival and departure events to si
 
 ### Files
 
-- **src/BankSimApp.cpp**: The main application file that runs the simulation.
-- **src/BinaryHeap.cpp**: Implementation of a binary heap used as the underlying data structure for the priority queue.
-- **src/PriorityQueue.cpp**: Implementation of the priority queue ADT class.
-- **src/Queue.cpp**: Implementation of a link-based queue used to manage the bank line.
-- **src/Event.cpp**: Models arrival and departure events.
-- **src/EmptyDataCollectionException.cpp**: Defines the exception that is thrown when data collection is empty.
+- **BankSimApp.cpp**: The main application file that runs the simulation.
+- **BinaryHeap.cpp**: Implementation of a binary heap used as the underlying data structure for the priority queue.
+- **PriorityQueue.cpp**: Implementation of the priority queue ADT class.
+- **Queue.cpp**: Implementation of a link-based queue used to manage the bank line.
+- **Event.cpp**: Models arrival and departure events.
+- **EmptyDataCollectionException.cpp**: Defines the exception that is thrown when data collection is empty.
 
-- **include/BinaryHeap.h**: Header file defining the BinaryHeap class.
-- **include/PriorityQueue.h**: Header file defining the PriorityQueue class.
-- **include/Queue.h**: Header file defining the Queue class.
-- **include/Event.h**: Header file defining the Event class.
-- **include/EmptyDataCollectionException.h**: Header file defining the EmptyDataCollectionException class.
+- **BinaryHeap.h**: Header file defining the BinaryHeap class.
+- **PriorityQueue.h**: Header file defining the PriorityQueue class.
+- **Queue.h**: Header file defining the Queue class.
+- **Event.h**: Header file defining the Event class.
+- **EmptyDataCollectionException.h**: Header file defining the EmptyDataCollectionException class.
